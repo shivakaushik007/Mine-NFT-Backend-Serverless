@@ -2,9 +2,9 @@
 
 import mongoose from "mongoose";
 
-const MONGODB_URI_DEV = "mongodb+srv://shiva-kaushik:shiva-kaushik@cluster0.czabgwp.mongodb.net/?retryWrites=true&w=majority";
+const MONGODB_URI_DEV = "mongodb+srv://shiva-kaushik:shiva-kaushik@cluster0.czabgwp.mongodb.net/minenft-dev?retryWrites=true&w=majority";
 
-const MONGODB_URI_PROD = "mongodb+srv://shiva-kaushik:shiva-kaushik@cluster0.czabgwp.mongodb.net/?retryWrites=true&w=majority";
+const MONGODB_URI_PROD = "mongodb+srv://shiva-kaushik:shiva-kaushik@cluster0.czabgwp.mongodb.net/minenft-prod?retryWrites=true&w=majority";
 
 // console.log("connect to mongo", process.env.CURRENTSTAGE);
 
