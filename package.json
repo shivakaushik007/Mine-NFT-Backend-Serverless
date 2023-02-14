@@ -1,0 +1,19 @@
+{
+  "name": "mine-nft-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "serverless-http": "^3.1.1"
+  },
+  "scripts": {
+    "start": "nodemon -e js  --exec \"sls offline\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  }
+}
