@@ -21,7 +21,7 @@ export const createAdmin = async (req, res) => {
     } = req.body;
 
     const createAdminRes = Query.create(Admin, {
-      wallet_address: wallet_address,
+      wallet_address: wallet_address.toLowerCase(),
       contract_address,
       brand_logo,
       brand_name,
@@ -35,6 +35,8 @@ export const createAdmin = async (req, res) => {
       network,
       expiration_date,
     });
+
+    console.log('createAdminRescreateAdminRes', createAdminRes)
 
     res.status(response.ok).json({
       message: "Admin is created successfully",
