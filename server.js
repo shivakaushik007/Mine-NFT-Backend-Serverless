@@ -1,4 +1,4 @@
 import sls from "serverless-http"
-import app from "./api/db/app.js"
+import app from "./api/app.js";
 
 export const run = sls(app);
